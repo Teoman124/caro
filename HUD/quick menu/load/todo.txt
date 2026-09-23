@@ -1,0 +1,16 @@
+maak je load dat je twee knoppen hebt qua saves bekijken en back gaan
+
+als je op de saves klikt krijg je alle saves op 
+name van de save (bijvoorbeeld save1 of save32)
+hoelang je hebt gespeeld
+en wanner je laats het save had gespeeld
+
+via daar heb je een pop up als je op de save file klint wat je wilt loaden 
+weet je zeker dat je deze save wilt loaden al je ongesaved progressie gaat weg 
+en dan heb je 
+ja 
+nee
+
+als je op ja klint word je naar die save gegooit
+
+tijdens dat het zit te loaden krijg je een balk die 0 tot 100% vol word 

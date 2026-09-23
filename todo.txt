@@ -1,0 +1,35 @@
+
+
+
+
+find de missing art stukken om 100% compleation
+
+find kleuren, kwast canvas etc om je master kunstwerk te maken 
+
+als je ze allemaal heb kan je het maken en is de game voorbij 
+je moet op quest gaan omdat dit te vinden zoals als je een kwast wil maken moet je de haar van een dier hebben dat kan je alleen doen met een schaar dus je moet een schaar vinden
+
+je woont in een afgelegde log cabin 
+
+je een kleur kopen rood, blauw en groen voor dat heb je geld nodig dus je moet een quest acsepteren van de winkel medewerker 
+
+
+
+
+quests
+colors
+kwast | horsefarm | NEEDS sicors GETS FROM shop
+
+red color
+find red berrys near the woodshop
+green color
+find algy near the beatch
+
+
+
+shop
+money pop-up but you dont have any money 
+you cant buy this, you dont have any money.
+here, deliver this to the woodworker ()
+and you need to pick () up from the fisherman
+after your done comeback and ill give you your sisors.

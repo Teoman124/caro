@@ -1,3 +1,29 @@
-[gd_scene format=3 uid="uid://bspwks66vlw5m"]
+[gd_scene load_steps=2 format=3 uid="uid://bspwks66vlw5m"]
 
-[node name="StartScreen" type="Node2D"]
+[ext_resource type="Script" uid="uid://b2t8ii2435dou" path="res://HUD/start_screen/start_screen.gd" id="1_8ncdo"]
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_8ncdo")
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 95.0
+offset_top = 56.0
+offset_right = 217.0
+offset_bottom = 87.0
+text = "start
+"
+
+[node name="QuitButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 168.0
+offset_right = 205.0
+offset_bottom = 199.0
+text = "quit
+"
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

@@ -1,3 +1,21 @@
 [gd_scene format=3 uid="uid://65i42imkqcp2"]
 
-[node name="QuickMenu" type="Node2D"]
+[node name="QuickMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 49.0
+offset_right = 172.0
+offset_bottom = 72.0
+text = "return"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 136.0
+offset_right = 173.0
+offset_bottom = 159.0
+text = "quit"

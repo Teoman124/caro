@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bspwks66vlw5m"]
 
-[ext_resource type="Script" uid="uid://b2t8ii2435dou" path="res://HUD/start_screen/start_screen.gd" id="1_8ncdo"]
+[ext_resource type="Script" uid="uid://b2t8ii2435dou" path="res://UI/start_screen/start_screen.gd" id="1_8ncdo"]
 
 [node name="StartScreen" type="Control"]
 layout_mode = 3
@@ -18,10 +18,10 @@ text = "start
 
 [node name="QuitButton" type="Button" parent="."]
 layout_mode = 0
-offset_left = 83.0
-offset_top = 168.0
-offset_right = 205.0
-offset_bottom = 199.0
+offset_left = 92.0
+offset_top = 136.0
+offset_right = 214.0
+offset_bottom = 167.0
 text = "quit
 "
 

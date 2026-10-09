@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4n3otbu3mbxf"
-path="res://.godot/imported/16x32 Walk-Sheet.png-94eb8da779cd868847d58edc88b11012.ctex"
+uid="uid://dr72a5vq00y2e"
+path="res://.godot/imported/TopDownHouse_SmallItems.png-b5a59dacbb2fe6d37d92b6b26869a434.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/temp/16x32 Walk-Sheet.png"
-dest_files=["res://.godot/imported/16x32 Walk-Sheet.png-94eb8da779cd868847d58edc88b11012.ctex"]
+source_file="res://sprites/!temp/inspo houses/Top-Down_Retro_Interior/TopDownHouse_SmallItems.png"
+dest_files=["res://.godot/imported/TopDownHouse_SmallItems.png-b5a59dacbb2fe6d37d92b6b26869a434.ctex"]
 
 [params]
 

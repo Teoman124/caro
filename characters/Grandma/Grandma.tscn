@@ -1,24 +1,60 @@
-[gd_scene load_steps=6 format=3 uid="uid://d4h5816fhtay4"]
+[gd_scene load_steps=11 format=3 uid="uid://d4h5816fhtay4"]
 
 [ext_resource type="Script" uid="uid://33xwbpc73bp1" path="res://characters/Grandma/grandma.gd" id="1_vo18o"]
-[ext_resource type="Texture2D" uid="uid://dhmeasjcfls22" path="res://sprites/temp/placeholder npc/pixel-art-32x32.png" id="2_wd12b"]
+[ext_resource type="Texture2D" path="res://sprites/temp/16x32 Idle-Sheet.png" id="2_diqim"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5ft5j"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_8othr"]
-atlas = ExtResource("2_wd12b")
+[sub_resource type="AtlasTexture" id="AtlasTexture_8m1w2"]
+atlas = ExtResource("2_diqim")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_be5wc"]
+atlas = ExtResource("2_diqim")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bn0r5"]
+atlas = ExtResource("2_diqim")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cc1ie"]
+atlas = ExtResource("2_diqim")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j80g2"]
+atlas = ExtResource("2_diqim")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_r2q1t"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_8othr")
+"texture": SubResource("AtlasTexture_8m1w2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_be5wc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bn0r5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cc1ie")
+}],
+"loop": false,
+"name": &"Idle ",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j80g2")
 }],
 "loop": true,
-"name": &"Idle",
+"name": &"Talking",
 "speed": 5.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1adp4"]
+size = Vector2(28, 32)
 
 [node name="Grandma" type="CharacterBody2D"]
 script = ExtResource("1_vo18o")
@@ -28,4 +64,12 @@ shape = SubResource("RectangleShape2D_5ft5j")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_r2q1t")
-animation = &"Idle"
+animation = &"Idle "
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_1adp4")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

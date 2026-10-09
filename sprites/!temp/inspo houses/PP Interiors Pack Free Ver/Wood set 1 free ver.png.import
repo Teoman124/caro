@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwy4t0u72ep77"
-path="res://.godot/imported/16x32 Interact-Sheet.png-53a5d6514ce5f9944947faf9c11218f1.ctex"
+uid="uid://dkuvdv5kam212"
+path="res://.godot/imported/Wood set 1 free ver.png-09f30d785b9e977c395b780a85443270.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/temp/16x32 Interact-Sheet.png"
-dest_files=["res://.godot/imported/16x32 Interact-Sheet.png-53a5d6514ce5f9944947faf9c11218f1.ctex"]
+source_file="res://sprites/!temp/inspo houses/PP Interiors Pack Free Ver/Wood set 1 free ver.png"
+dest_files=["res://.godot/imported/Wood set 1 free ver.png-09f30d785b9e977c395b780a85443270.ctex"]
 
 [params]
 

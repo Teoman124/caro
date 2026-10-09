@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhmeasjcfls22"
-path="res://.godot/imported/pixel-art-32x32.png-9c5c1daa3026c32f69526f1c0686b8e0.ctex"
+uid="uid://bwy4t0u72ep77"
+path="res://.godot/imported/16x32 Interact-Sheet.png-6d0f397f3a4794c94bb0d61ee8ce4d32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/temp/placeholder npc/pixel-art-32x32.png"
-dest_files=["res://.godot/imported/pixel-art-32x32.png-9c5c1daa3026c32f69526f1c0686b8e0.ctex"]
+source_file="res://sprites/!temp/placeholder characters/16x32 Interact-Sheet.png"
+dest_files=["res://.godot/imported/16x32 Interact-Sheet.png-6d0f397f3a4794c94bb0d61ee8ce4d32.ctex"]
 
 [params]
 

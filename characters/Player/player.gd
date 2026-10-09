@@ -56,3 +56,9 @@ func _physics_process(delta):
 
 	# 4. Voer de daadwerkelijke beweging uit
 	move_and_slide()
+
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	pass # Replace with function body.
+	# is NPC or OBJ like berries 
+	# 

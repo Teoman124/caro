@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://d4h5816fhtay4"]
 
 [ext_resource type="Script" uid="uid://33xwbpc73bp1" path="res://characters/Grandma/grandma.gd" id="1_vo18o"]
-[ext_resource type="Texture2D" path="res://sprites/temp/16x32 Idle-Sheet.png" id="2_diqim"]
+[ext_resource type="Texture2D" uid="uid://5ild76xpcnv3" path="res://sprites/!temp/placeholder characters/16x32 Idle-Sheet.png" id="2_diqim"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5ft5j"]
 

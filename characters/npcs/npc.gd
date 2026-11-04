@@ -1,5 +1,6 @@
 # npc.gd
 extends Node2D
+class_name npc_script
 
 @export var npc_name: String = "NPC"
 @export_multiline var dialogue_text: String = "Hallo reiziger!"

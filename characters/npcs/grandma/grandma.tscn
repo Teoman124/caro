@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhi51dgfsl7fv"]
+
+[ext_resource type="Script" uid="uid://xmg6rm2hl7dg" path="res://characters/npcs/grandma/grandma.gd" id="1_xcswh"]
+
+[node name="Grandma" type="CharacterBody2D"]
+script = ExtResource("1_xcswh")

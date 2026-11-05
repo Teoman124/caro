@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bhi51dgfsl7fv"]
+
+[ext_resource type="Script" uid="uid://xmg6rm2hl7dg" path="res://characters/npcs/grandma/grandma.gd" id="1_xcswh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xcswh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kc1y3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2rrab"]
+size = Vector2(20.084032, 20.084032)
+
+[node name="Grandma" type="CharacterBody2D"]
+script = ExtResource("1_xcswh")
+
+[node name="CollisionShapeBody" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xcswh")
+debug_color = Color(0.93767554, 1.4246702e-05, 0.6290863, 0.41960785)
+
+[node name="AnimatedSpriteBody" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_kc1y3")
+
+[node name="InteractArea" type="Area2D" parent="."]
+
+[node name="CollisionShapeArea" type="CollisionShape2D" parent="InteractArea"]
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_2rrab")
+debug_color = Color(0.37782198, 0.47590637, 1, 0.41960785)

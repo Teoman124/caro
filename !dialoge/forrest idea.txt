@@ -18,11 +18,9 @@ ik wil dat hij alleen doode bomen kapt en de
 	hallo caro, ik weet waarom je hier bent je bent hier namens de blacksmith maar als ik je help gaat de lumberjack zijn bijl slijpen zodat hij meer bomen kan kapen, dat kan ik je niet laten doen caro,
 	
 fase 1 
-	hallo veremdeling, waarom ben je hier
+	hallo veremdeling, ik weet dat de wesp jou hier heeft gebracht. waarom ben je hier?
 	ik kom voor blacksmith zijn dochter is erg ziek hij heeft de specaale erb nodig 
 	hmmm ik kan je daarmee helpen maar ik wil iets terug, ik wil dat de lumberjack gaat stopen met mijn bomen kappen als hij mijn bomen wilt dan moet hij dat terug planten.
-		1 alleen ouden bomen kappen 
-		2 nieuwe bomen lanten als hij een boom gaat kappen 
 	ik kan dat wel proberen maar niemand weet dat je bestaat 
 	hier heb je een orb laat het zien aan de lumberjack 
 fase 2 
